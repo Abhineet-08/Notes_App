@@ -6,21 +6,8 @@ import Header from './components/Header';
 
 const App = () => {
 	const [notes, setNotes] = useState([
-		{
-			id: nanoid(),
-			text: 'This is my first note!',
-			date: '15/04/2021',
-		},
-		{
-			id: nanoid(),
-			text: 'This is my second note!',
-			date: '21/04/2021',
-		},
-		{
-			id: nanoid(),
-			text: 'This is my third note!',
-			date: '28/04/2021',
-		},
+		
+		
 		{
 			id: nanoid(),
 			text: 'This is my new note!',
